@@ -7,3 +7,13 @@ fit<- lm(y~x)
 par(mfrow=c(2,2))
 plot(fit,which = 1:4,caption = c("Residuals",'QQ','Scale','Cooks D'))
 
+add stuff and whatnot
+
+asdfadf
+
+asdfasd
+
+
+asdkjf;aksldjf;ajkdf
+
+asdfasdf
