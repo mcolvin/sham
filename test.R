@@ -9,4 +9,3 @@ plot(fit,which = 1:4,caption = c("Residuals",'QQ','Scale','Cooks D'))
 
 add stuff and whatnot
 
-asdfadf
