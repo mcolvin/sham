@@ -1,4 +1,4 @@
 name: Deez Nutz
 markdown: kramdown
 baseurl: https://mcolvin.github.com/sham
-permalink: /blog/:year/:month/:day/:title
+permalink: /:blog/:year/:month/:day/:title
