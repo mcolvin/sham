@@ -10,4 +10,4 @@ github_username:  mcolvin
 
 # Build settings
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+permalink: /sham/blog/:year/:month/:day/:title
