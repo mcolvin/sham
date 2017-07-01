@@ -1,0 +1,28 @@
+---
+title: ""
+---
+
+```{r echo=FALSE, out.width="95%"}
+include_graphics("images/20170321_180723.jpg")
+```
+<!--
+
+library(knitr)
+rmarkdown::render_site("index.Rmd")# build website
+# rmarkdown::render_site()# build website
+# COPY FILES TO DOCS FOR GITHUB.IO
+system(paste("xcopy", 
+    '"C:/Users/mcolvin/Documents/GitHub/sham/_site"', 
+    '"C:/Users/mcolvin/Documents/GitHub/sham/Docs"',
+    "/E /C /H /R /K /O /Y")) 
+  q(save="no")  
+
+-->
+
+## Syllabus
+
+[Course syllabus](syllabus.html)
+
+## Final exam
+
+* Final Exam is scheduled for Wednesday, May 03, 2017 8-11 am!!!!
