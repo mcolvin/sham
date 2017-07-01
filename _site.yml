@@ -2,8 +2,9 @@ name: "PSPAP-V2"
 navbar:
   title: "Course home"
   left:
-    - text: "Main page"
-      href: "index.html"      
+    - text: "Home"
+      icon: fa-home  # handy way to use FontAwesome icons in nav!
+      href: index.html      
     - text: "Posts"
       href: "posts.html"
 output_dir: "_site"
