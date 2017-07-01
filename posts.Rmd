@@ -3,25 +3,42 @@ title: ""
 ---
 
 ```{r echo=FALSE, out.width="95%"}
-include_graphics("media/Slide7.PNG")
+include_graphics("images/20170321_180723.jpg.PNG")
 ```
-<!--
+---
+title: "BLOG" 
+---
 
-library(knitr)
-rmarkdown::render_site("Assignments.Rmd")# build website
-# COPY FILES TO DOCS FOR GITHUB.IO
-system(paste("xcopy", 
-    '"C:/Users/mcolvin/Documents/Teaching/WFA4133-Fisheries-Science/Course-Materials/_site"', 
-    '"C:/Users/mcolvin/Documents/Teaching/WFA4133-Fisheries-Science/Docs"',
-    "/E /C /H /R /K /O /Y")) 
-  q(save="no")  
+<!---
+entries will follow this format:
+<article>
+<h3><a href=""> </a></h3>
+<div class="summary">
+<span><i class="fa fa-calendar"></i> _date_</span>
+<p> ...</p>
+<a class="btn btn-outline-primary btn-sm" href="">Full Post</a>
+</div>
+</article>
+--->
 
--->
+<article>
+<h3><a href="blog-vaccine-heatmap.html">RECREATING THE VACCINE HEATMAP IN PLOTLY WITH R</a></h3>
+<div class="summary">
+<span><i class="fa fa-calendar"></i> _2016-10-14_</span>
+<p>In order to get the data for this visualization you will need to create a free account over at [Project Tyco](www.website.com).  You can download all the datasets if you like but I'm just going to use the Polio data set.  These are the packages that I'm using:...</p>
+<a class="btn btn-outline-primary btn-sm" href="">Full Post</a>
+</div>
+</article>
 
-## Assignments
+<hr>
 
-* lkdla;kfas;ldfj;
-    1. Provide 1 multiple choice question you believe is a good candidate for a final exam question
-    2. Provide 1 question, that is not multiple choice, you believe is a good candidate for a final exam
-    3. Provide 1 question or topic you would like to see reviewed prior to the final exam. (Optional)
-    4. For full credit your responses are due by 5pm 4/24/2016. 
+<article>
+<h3><a href="blog-building-site-with-rmarkdown.html">BUILDING THIS SITE WITH RSTUDIO AND RMARKDOWN</a></h3>
+<div class="summary">
+<span><i class="fa fa-calendar"></i> _2016-09-01_</span>
+<p>There _may_ be a special place in hell for blog posts like this that document how someone put together their static site website and hosted it on GitHub.  Especially when there is really great [documentation](rmarkdown.rstudio.com/rmarkdown_websites.html) availible that has been put together by really smart people.  You can even look at Rmarkdown's website source code on [GitHub](https://github.com/rstudio/rmarkdown/tree/gh-pages) to see...</p>
+<a class="btn btn-outline-primary btn-sm" href="">Full Post</a>
+</div>
+</article>
+
+<hr>
