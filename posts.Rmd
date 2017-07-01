@@ -1,13 +1,11 @@
 ---
-title: ""
+title: "BLOG" 
 ---
 
 ```{r echo=FALSE, out.width="95%"}
 include_graphics("images/20170321_180723.jpg")
 ```
----
-title: "BLOG" 
----
+
 
 <!---
 entries will follow this format:
